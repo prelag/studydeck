@@ -3,7 +3,7 @@ import App from "./App";
 import {debug} from "util";
 import {getCards} from "./services/CardService";
 
-jest.mock('./services/CardService.ts')
+//jest.mock('./services/CardService.ts')
 
 it('Renders cards from the api', () => {
     const mockCards = [
@@ -12,8 +12,8 @@ it('Renders cards from the api', () => {
         {id: 3, term: 'test 3', definition: 'def 3'},
     ]
 
-    getCards().mockResolvedValue()
+   // getCards().mockResolvedValue()
 
-    render(<App />)
+    //render(<App />)
     //debug();
 })
