@@ -12,7 +12,7 @@ it('Renders cards from the api', () => {
         {id: 3, term: 'test 3', definition: 'def 3'},
     ]
 
-    getCards().mockResolvedValue()
+    //getCards().mockResolvedValue()
 
     render(<App />)
     //debug();
